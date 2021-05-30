@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap" rel="stylesheet">
+
+    <title></title>
+  </head>
+
+  <style media="screen">
+  body{
+      background:grey;
+
+    }
+    input{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+	}
+
+  .center-column{
+
+
+		width:600px;
+		margin: 20px auto;
+		padding:20px;
+      margin-top:100px;
+		background-color: #fff;
+		border-radius: 3px;
+		box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+	}
+  h3{
+    text-align:center;
+  }
+
+  </style>
+  <body>
+{% load crispy_forms_tags %}
+    <h3>Customer Form</h3>
+    <hr>
+<div class="center-column">
+
+
+    <form  action="" method="POST">
+      {% csrf_token %}
+      {{form|crispy}}
+      <input class="btn btn-info" type="submit" >
+    </form>
+    </div>
+  </body>
+</html>
