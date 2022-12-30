@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '*z*vl^h@m!d*#dkcs82(m5vtz!2cts+!ee1*$9i@cim=!(e#8-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['djform.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['djform.herokuapp.com','127.0.0.1','e-commercewebsite-production.up.railway.app']
 
 
 # Application definition
