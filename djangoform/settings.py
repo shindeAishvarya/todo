@@ -86,11 +86,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
 #         'NAME': BASE_DIR / 'db.sqlite3',
-        'NAME':'railway',
-        'USER':'postgres',
-        'PASSWORD':'6y7Mk8OAu11KWQ0gXuIA',
-        'HOST':'containers-us-west-184.railway.app',
-        'PORT':'5652',
+        'NAME':'',
+        'USER':'',
+        'PASSWORD':'',
+        'HOST':'',
+        'PORT':'',
     }
 }
 
